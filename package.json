@@ -1,0 +1,26 @@
+{
+  "name": "the-super-cozy-lounge",
+  "version": "1.0.0",
+  "description": "Website with Discord OAuth for The Super Cozy Lounge",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "discord",
+    "oauth",
+    "express",
+    "community",
+    "tscl"
+  ],
+  "author": "The Super Cozy Lounge",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.17.3",
+    "node-fetch": "^3.3.2"
+  }
+}
